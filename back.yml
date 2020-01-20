@@ -1,0 +1,30 @@
+# Blog
+title: 拉瑞的技術焦慮
+subtitle: 一個前端菜鳥的部落格
+keywords: 前端,前端工程,CSS,HTML,Vue
+author: larrykkk
+description: 拉瑞的技術焦慮，前端技術分享，個人工作心得的部落格
+avatar: https://avatars3.githubusercontent.com/u/25131952?s=460&v=4
+
+# Social Accounts
+twitter: larrykkk1
+rss: 
+weibo: 
+instagram: 
+github: larrykkk
+facebook: 
+
+# Comment
+duoshuo: 
+disqus: larrykkk
+gentie: 
+# Valine comments https://valine.js.org
+valine:
+  enable: false # if you want use valine, please set enable: true
+  appid:  # your leancloud appid
+  appkey:  # your leancloud appkey
+  notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+  verify: false # true/false:verify code
+  avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  placeholder: Just go go # comment box placeholder
+
