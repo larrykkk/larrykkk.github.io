@@ -8,7 +8,7 @@ subtitle: 一個前端菜鳥的部落格
 description: 這裡是一個前端技術分享,個人工作心得的部落格,歡迎多多交流
 keywords: 前端,前端工程,CSS,HTML,Vue
 author: larrykkk
-language: en
+language: zh-TW
 timezone:
 
 # URL
@@ -80,7 +80,7 @@ archive_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anatole
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -88,3 +88,33 @@ deploy:
   type: git
   repo: git@github.com:larrykkk/larrykkk.github.io.git
   branch: master
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 30
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js' 
